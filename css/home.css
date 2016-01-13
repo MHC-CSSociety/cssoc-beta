@@ -7,5 +7,12 @@
   overflow-y: scroll;
   height: 90%;
   /*border: solid 15px blue;*/
+}
 
+#nav-bar li{
+  display: inline;
+}
+
+.section{
+  z-index: -1;
 }
