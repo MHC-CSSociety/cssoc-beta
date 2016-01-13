@@ -1,0 +1,11 @@
+#slide1{
+  background-image: url("../images/bodyback.jpg");
+  background-size:cover;
+}
+
+.intro{
+  overflow-y: scroll;
+  height: 90%;
+  /*border: solid 15px blue;*/
+
+}
