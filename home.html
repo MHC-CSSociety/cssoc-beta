@@ -6,51 +6,12 @@
 	<title>Cssoc-beta</title>
 	<meta name="author" content="Alvaro Trigo Lopez" />
 	<meta name="description" content="fullPage full-screen sliders navigation widh dots." />
-	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,sliders navigation, horizontal navigation,horizontal,navigation,dots" />
+	<meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,sliders navigation, horizontal navigation,horizontal,navigation,dots" />
 	<meta name="Resource-type" content="Document" />
 
 	<link rel="stylesheet" type="text/css" href="css/home.css" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
-
-	<style>
-
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-	}
-	.intro p{
-		color: #fff;
-	}
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-
-	/* Overwriting styles for the navigation dots (to place it where we want)
-	* --------------------------------------- */
-	.fp-slidesNav.bottom{
-		bottom: 25px;
-	}
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
-
-	#section2 h1{
-		color: #333;
-	}
-
-	</style>
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -60,12 +21,9 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
 	<script type="text/javascript" src="js/vendors/jquery.slimscroll.min.js"></script>
-
 	<script type="text/javascript" src="js/vendors/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/vendors/examples.js"></script>
-
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -77,6 +35,7 @@
 	</script>
 
 </head>
+
 <body>
 	<div id="nav-bar">
 		<ul>
@@ -84,59 +43,58 @@
 			<li>Link 2</li>
 		</ul>
 	</div>
-<div id="fullpage">
-
-
-
-	<div class="section" id="section1">
-
-	    <div class="slide" id="slide1" data-anchor="slide1">
-			<div class="intro">
-
-				<h1>Page 1</h1>
-				<p>
-					About us
-				</p>
-
+	<div id="fullpage">
+		<div class="section" id="section1">
+			<div class="slide" id="slide1" data-anchor="slide1">
+				<div class="scrolly">
+					<h1>Page 1</h1>
+					<p>
+						About us
+					</p>
+				</div>
+			</div>
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<div class="scrolly">
+					<h1>About</h1>
+					<ul>
+						<li>Mission statement</li>
+						<li>Mini brag sheet</li>
+					</ul>
+				</div>
+			</div>
+			<div class="slide" id="slide3" data-anchor="slide3">
+				<div class="scrolly">
+					<h1>Programs</h1>
+				</div>
+			</div>
+			<div class="slide" id="slide4" data-anchor="slide4">
+				<div class="scrolly">
+					<h1>Members</h1>
+				</div>
+			</div>
+			<div class="slide" id="slide5" data-anchor="slide5">
+				<div class="scrolly">
+					<h1>Calendar</h1>
+				</div>
+			</div>
+			<div class="slide" id="slide6" data-anchor="slide6">
+				<div class="scrolly">
+					<h1>Sponsors</h1>
+				</div>
+			</div>
+			<div class="slide" id="slide7" data-anchor="slide7">
+				<div class="scrolly">
+					<h1>Contact</h1>
+				</div>
+			</div>
+			<div class="slide" id="slide8" data-anchor="slide8">
+				<div class="scrolly">
+					<h1>Volunteers</h1>
+				</div>
 			</div>
 		</div>
-
-	  <div class="slide" id="slide2" data-anchor="slide2">
-			<h1>About</h1>
-				<ul>
-					<li>Mission statement</li>
-					<li>Mini brag sheet</li>
-				<ul>
-		</div>
-
-		<div class="slide" id="slide3" data-anchor="slide3">
-			<h1>Programs</h1>
-		</div>
-
-		<div class="slide" id="slide4" data-anchor="slide4">
-			<h1>Members</h1>
-		</div>
-
-		<div class="slide" id="slide5" data-anchor="slide5">
-			<h1>Calendar</h1>
-		</div>
-
-		<div class="slide" id="slide6" data-anchor="slide6">
-			<h1>Sponsors</h1>
-		</div>
-
-		<div class="slide" id="slide7" data-anchor="slide7">
-			<h1>Contact</h1>
-		</div>
-
-		<div class="slide" id="slide8" data-anchor="slide8">
-			<h1>Volunteers</h1>
-		</div>
-
 	</div>
 
-</div>
-
-
 </body>
+
 </html>
